@@ -1,6 +1,0 @@
-framework module Pods_Git_ClockUITests {
-  umbrella header "Pods-Git ClockUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
