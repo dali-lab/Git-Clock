@@ -10,6 +10,8 @@ target 'Git Clock' do
   pod 'Alamofire'
   pod 'EmitterKit'
   pod 'Socket.IO-Client-Swift'
+  pod 'SwiftyJSON'
+  pod 'SwiftLint'
 
   target 'Git ClockTests' do
     inherit! :search_paths
