@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3FE4FC79B7193D203B01D4DC /* Pods_Git_ClockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B5CAD8C233E323CC90CB0B /* Pods_Git_ClockTests.framework */; };
+		5210FED2228B426500099553 /* GHOrganization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210FECC228B426500099553 /* GHOrganization.swift */; };
+		5210FED3228B426500099553 /* GHRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210FECD228B426500099553 /* GHRepository.swift */; };
+		5210FED4228B426500099553 /* GitHubLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210FECE228B426500099553 /* GitHubLogin.swift */; };
+		5210FED5228B426600099553 /* GHIssue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210FECF228B426500099553 /* GHIssue.swift */; };
+		5210FED6228B426600099553 /* GHConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210FED0228B426500099553 /* GHConfig.swift */; };
+		5210FED7228B426600099553 /* GHPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210FED1228B426500099553 /* GHPager.swift */; };
 		526CCF6B228B410D00D66965 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526CCF6A228B410D00D66965 /* AppDelegate.swift */; };
 		526CCF6D228B410D00D66965 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526CCF6C228B410D00D66965 /* ViewController.swift */; };
 		526CCF70228B410D00D66965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526CCF6E228B410D00D66965 /* Main.storyboard */; };
@@ -39,6 +45,12 @@
 /* Begin PBXFileReference section */
 		14B5CAD8C233E323CC90CB0B /* Pods_Git_ClockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Git_ClockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDB320C16E43DFC4D4A71A6 /* Pods-Git Clock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Git Clock.release.xcconfig"; path = "Target Support Files/Pods-Git Clock/Pods-Git Clock.release.xcconfig"; sourceTree = "<group>"; };
+		5210FECC228B426500099553 /* GHOrganization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHOrganization.swift; sourceTree = "<group>"; };
+		5210FECD228B426500099553 /* GHRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHRepository.swift; sourceTree = "<group>"; };
+		5210FECE228B426500099553 /* GitHubLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubLogin.swift; sourceTree = "<group>"; };
+		5210FECF228B426500099553 /* GHIssue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHIssue.swift; sourceTree = "<group>"; };
+		5210FED0228B426500099553 /* GHConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHConfig.swift; sourceTree = "<group>"; };
+		5210FED1228B426500099553 /* GHPager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHPager.swift; sourceTree = "<group>"; };
 		526CCF67228B410D00D66965 /* Git Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		526CCF6A228B410D00D66965 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		526CCF6C228B410D00D66965 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,8 +111,46 @@
 				B7942ABEE1EE2765B2BE2F3B /* Pods-Git ClockUITests.debug.xcconfig */,
 				BE1E36D080C8E4DA7864FB49 /* Pods-Git ClockUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		5210FEC7228B41EE00099553 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				526CCF71228B410E00D66965 /* Assets.xcassets */,
+				526CCF76228B410E00D66965 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5210FEC8228B41FE00099553 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				526CCF6C228B410D00D66965 /* ViewController.swift */,
+				526CCF6E228B410D00D66965 /* Main.storyboard */,
+				526CCF73228B410E00D66965 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5210FECA228B421E00099553 /* GitHub */ = {
+			isa = PBXGroup;
+			children = (
+				5210FED0228B426500099553 /* GHConfig.swift */,
+				5210FECF228B426500099553 /* GHIssue.swift */,
+				5210FECC228B426500099553 /* GHOrganization.swift */,
+				5210FED1228B426500099553 /* GHPager.swift */,
+				5210FECD228B426500099553 /* GHRepository.swift */,
+				5210FECE228B426500099553 /* GitHubLogin.swift */,
+			);
+			path = GitHub;
+			sourceTree = "<group>";
+		};
+		5210FECB228B423200099553 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Server;
 			sourceTree = "<group>";
 		};
 		526CCF5E228B410D00D66965 = {
@@ -129,11 +179,10 @@
 			isa = PBXGroup;
 			children = (
 				526CCF6A228B410D00D66965 /* AppDelegate.swift */,
-				526CCF6C228B410D00D66965 /* ViewController.swift */,
-				526CCF6E228B410D00D66965 /* Main.storyboard */,
-				526CCF71228B410E00D66965 /* Assets.xcassets */,
-				526CCF73228B410E00D66965 /* LaunchScreen.storyboard */,
-				526CCF76228B410E00D66965 /* Info.plist */,
+				5210FEC8228B41FE00099553 /* UI */,
+				5210FECB228B423200099553 /* Server */,
+				5210FECA228B421E00099553 /* GitHub */,
+				5210FEC7228B41EE00099553 /* Supporting Files */,
 			);
 			path = "Git Clock";
 			sourceTree = "<group>";
@@ -177,6 +226,7 @@
 				526CCF63228B410D00D66965 /* Sources */,
 				526CCF64228B410D00D66965 /* Frameworks */,
 				526CCF65228B410D00D66965 /* Resources */,
+				B700DC0CB26AFC1AF1F9EF4A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -340,6 +390,36 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B700DC0CB26AFC1AF1F9EF4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Git Clock/Pods-Git Clock-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/EmitterKit/EmitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FutureKit/FutureKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EmitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FutureKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Git Clock/Pods-Git Clock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		EA9E01CEDDF996987700390F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,7 +449,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5210FED3228B426500099553 /* GHRepository.swift in Sources */,
+				5210FED2228B426500099553 /* GHOrganization.swift in Sources */,
+				5210FED4228B426500099553 /* GitHubLogin.swift in Sources */,
+				5210FED6228B426600099553 /* GHConfig.swift in Sources */,
 				526CCF6D228B410D00D66965 /* ViewController.swift in Sources */,
+				5210FED5228B426600099553 /* GHIssue.swift in Sources */,
+				5210FED7228B426600099553 /* GHPager.swift in Sources */,
 				526CCF6B228B410D00D66965 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,7 +634,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JQ28K6Y7JE;
-				INFOPLIST_FILE = "Git Clock/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Git Clock/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -567,7 +653,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JQ28K6Y7JE;
-				INFOPLIST_FILE = "Git Clock/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Git Clock/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

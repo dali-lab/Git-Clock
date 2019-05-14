@@ -6,6 +6,10 @@ target 'Git Clock' do
   use_frameworks!
 
   # Pods for Git Clock
+  pod 'FutureKit'
+  pod 'Alamofire'
+  pod 'EmitterKit'
+  pod 'Socket.IO-Client-Swift'
 
   target 'Git ClockTests' do
     inherit! :search_paths
