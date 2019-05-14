@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FE4FC79B7193D203B01D4DC /* Pods_Git_ClockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B5CAD8C233E323CC90CB0B /* Pods_Git_ClockTests.framework */; };
+		526CCF6B228B410D00D66965 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526CCF6A228B410D00D66965 /* AppDelegate.swift */; };
+		526CCF6D228B410D00D66965 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526CCF6C228B410D00D66965 /* ViewController.swift */; };
+		526CCF70228B410D00D66965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526CCF6E228B410D00D66965 /* Main.storyboard */; };
+		526CCF72228B410E00D66965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526CCF71228B410E00D66965 /* Assets.xcassets */; };
+		526CCF75228B410E00D66965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526CCF73228B410E00D66965 /* LaunchScreen.storyboard */; };
+		526CCF80228B410F00D66965 /* Git_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526CCF7F228B410F00D66965 /* Git_ClockTests.swift */; };
+		526CCF8B228B410F00D66965 /* Git_ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526CCF8A228B410F00D66965 /* Git_ClockUITests.swift */; };
+		53C69F3FDE67B759B8C1D1B1 /* Pods_Git_ClockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E88A566196E3429358F371 /* Pods_Git_ClockUITests.framework */; };
+		D2160AFDF1D8F081F13DE92C /* Pods_Git_Clock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16C43879290A0E373B5CED0 /* Pods_Git_Clock.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		526CCF7C228B410F00D66965 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526CCF5F228B410D00D66965 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526CCF66228B410D00D66965;
+			remoteInfo = "Git Clock";
+		};
+		526CCF87228B410F00D66965 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526CCF5F228B410D00D66965 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526CCF66228B410D00D66965;
+			remoteInfo = "Git Clock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14B5CAD8C233E323CC90CB0B /* Pods_Git_ClockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Git_ClockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDB320C16E43DFC4D4A71A6 /* Pods-Git Clock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Git Clock.release.xcconfig"; path = "Target Support Files/Pods-Git Clock/Pods-Git Clock.release.xcconfig"; sourceTree = "<group>"; };
+		526CCF67228B410D00D66965 /* Git Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		526CCF6A228B410D00D66965 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		526CCF6C228B410D00D66965 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		526CCF6F228B410D00D66965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		526CCF71228B410E00D66965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		526CCF74228B410E00D66965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		526CCF76228B410E00D66965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526CCF7B228B410F00D66965 /* Git ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		526CCF7F228B410F00D66965 /* Git_ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_ClockTests.swift; sourceTree = "<group>"; };
+		526CCF81228B410F00D66965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526CCF86228B410F00D66965 /* Git ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git ClockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		526CCF8A228B410F00D66965 /* Git_ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_ClockUITests.swift; sourceTree = "<group>"; };
+		526CCF8C228B410F00D66965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EE44567B845F107447C6A6B /* Pods-Git Clock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Git Clock.debug.xcconfig"; path = "Target Support Files/Pods-Git Clock/Pods-Git Clock.debug.xcconfig"; sourceTree = "<group>"; };
+		6805096B183B12F1F8663FCF /* Pods-Git ClockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Git ClockTests.debug.xcconfig"; path = "Target Support Files/Pods-Git ClockTests/Pods-Git ClockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1E88A566196E3429358F371 /* Pods_Git_ClockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Git_ClockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7942ABEE1EE2765B2BE2F3B /* Pods-Git ClockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Git ClockUITests.debug.xcconfig"; path = "Target Support Files/Pods-Git ClockUITests/Pods-Git ClockUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE1E36D080C8E4DA7864FB49 /* Pods-Git ClockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Git ClockUITests.release.xcconfig"; path = "Target Support Files/Pods-Git ClockUITests/Pods-Git ClockUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C6DF2954A52E35E40281BC6D /* Pods-Git ClockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Git ClockTests.release.xcconfig"; path = "Target Support Files/Pods-Git ClockTests/Pods-Git ClockTests.release.xcconfig"; sourceTree = "<group>"; };
+		D16C43879290A0E373B5CED0 /* Pods_Git_Clock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Git_Clock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		526CCF64228B410D00D66965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2160AFDF1D8F081F13DE92C /* Pods_Git_Clock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526CCF78228B410F00D66965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE4FC79B7193D203B01D4DC /* Pods_Git_ClockTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526CCF83228B410F00D66965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C69F3FDE67B759B8C1D1B1 /* Pods_Git_ClockUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C7EA8C7EDB3A773825DF2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EE44567B845F107447C6A6B /* Pods-Git Clock.debug.xcconfig */,
+				1BDB320C16E43DFC4D4A71A6 /* Pods-Git Clock.release.xcconfig */,
+				6805096B183B12F1F8663FCF /* Pods-Git ClockTests.debug.xcconfig */,
+				C6DF2954A52E35E40281BC6D /* Pods-Git ClockTests.release.xcconfig */,
+				B7942ABEE1EE2765B2BE2F3B /* Pods-Git ClockUITests.debug.xcconfig */,
+				BE1E36D080C8E4DA7864FB49 /* Pods-Git ClockUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		526CCF5E228B410D00D66965 = {
+			isa = PBXGroup;
+			children = (
+				526CCF69228B410D00D66965 /* Git Clock */,
+				526CCF7E228B410F00D66965 /* Git ClockTests */,
+				526CCF89228B410F00D66965 /* Git ClockUITests */,
+				526CCF68228B410D00D66965 /* Products */,
+				06C7EA8C7EDB3A773825DF2A /* Pods */,
+				6453BF337ECEDCFCF5301BF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		526CCF68228B410D00D66965 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				526CCF67228B410D00D66965 /* Git Clock.app */,
+				526CCF7B228B410F00D66965 /* Git ClockTests.xctest */,
+				526CCF86228B410F00D66965 /* Git ClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		526CCF69228B410D00D66965 /* Git Clock */ = {
+			isa = PBXGroup;
+			children = (
+				526CCF6A228B410D00D66965 /* AppDelegate.swift */,
+				526CCF6C228B410D00D66965 /* ViewController.swift */,
+				526CCF6E228B410D00D66965 /* Main.storyboard */,
+				526CCF71228B410E00D66965 /* Assets.xcassets */,
+				526CCF73228B410E00D66965 /* LaunchScreen.storyboard */,
+				526CCF76228B410E00D66965 /* Info.plist */,
+			);
+			path = "Git Clock";
+			sourceTree = "<group>";
+		};
+		526CCF7E228B410F00D66965 /* Git ClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				526CCF7F228B410F00D66965 /* Git_ClockTests.swift */,
+				526CCF81228B410F00D66965 /* Info.plist */,
+			);
+			path = "Git ClockTests";
+			sourceTree = "<group>";
+		};
+		526CCF89228B410F00D66965 /* Git ClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				526CCF8A228B410F00D66965 /* Git_ClockUITests.swift */,
+				526CCF8C228B410F00D66965 /* Info.plist */,
+			);
+			path = "Git ClockUITests";
+			sourceTree = "<group>";
+		};
+		6453BF337ECEDCFCF5301BF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D16C43879290A0E373B5CED0 /* Pods_Git_Clock.framework */,
+				14B5CAD8C233E323CC90CB0B /* Pods_Git_ClockTests.framework */,
+				A1E88A566196E3429358F371 /* Pods_Git_ClockUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		526CCF66228B410D00D66965 /* Git Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526CCF8F228B410F00D66965 /* Build configuration list for PBXNativeTarget "Git Clock" */;
+			buildPhases = (
+				4DA6BC00BC3A96D1754C79F3 /* [CP] Check Pods Manifest.lock */,
+				526CCF63228B410D00D66965 /* Sources */,
+				526CCF64228B410D00D66965 /* Frameworks */,
+				526CCF65228B410D00D66965 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Git Clock";
+			productName = "Git Clock";
+			productReference = 526CCF67228B410D00D66965 /* Git Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		526CCF7A228B410F00D66965 /* Git ClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526CCF92228B410F00D66965 /* Build configuration list for PBXNativeTarget "Git ClockTests" */;
+			buildPhases = (
+				EA9E01CEDDF996987700390F /* [CP] Check Pods Manifest.lock */,
+				526CCF77228B410F00D66965 /* Sources */,
+				526CCF78228B410F00D66965 /* Frameworks */,
+				526CCF79228B410F00D66965 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526CCF7D228B410F00D66965 /* PBXTargetDependency */,
+			);
+			name = "Git ClockTests";
+			productName = "Git ClockTests";
+			productReference = 526CCF7B228B410F00D66965 /* Git ClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		526CCF85228B410F00D66965 /* Git ClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526CCF95228B410F00D66965 /* Build configuration list for PBXNativeTarget "Git ClockUITests" */;
+			buildPhases = (
+				A00A03D82CB0174BAF5000E7 /* [CP] Check Pods Manifest.lock */,
+				526CCF82228B410F00D66965 /* Sources */,
+				526CCF83228B410F00D66965 /* Frameworks */,
+				526CCF84228B410F00D66965 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526CCF88228B410F00D66965 /* PBXTargetDependency */,
+			);
+			name = "Git ClockUITests";
+			productName = "Git ClockUITests";
+			productReference = 526CCF86228B410F00D66965 /* Git ClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		526CCF5F228B410D00D66965 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "BrunchLabs, LLC";
+				TargetAttributes = {
+					526CCF66228B410D00D66965 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					526CCF7A228B410F00D66965 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 526CCF66228B410D00D66965;
+					};
+					526CCF85228B410F00D66965 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 526CCF66228B410D00D66965;
+					};
+				};
+			};
+			buildConfigurationList = 526CCF62228B410D00D66965 /* Build configuration list for PBXProject "Git Clock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 526CCF5E228B410D00D66965;
+			productRefGroup = 526CCF68228B410D00D66965 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				526CCF66228B410D00D66965 /* Git Clock */,
+				526CCF7A228B410F00D66965 /* Git ClockTests */,
+				526CCF85228B410F00D66965 /* Git ClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		526CCF65228B410D00D66965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526CCF75228B410E00D66965 /* LaunchScreen.storyboard in Resources */,
+				526CCF72228B410E00D66965 /* Assets.xcassets in Resources */,
+				526CCF70228B410D00D66965 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526CCF79228B410F00D66965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526CCF84228B410F00D66965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DA6BC00BC3A96D1754C79F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Git Clock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A00A03D82CB0174BAF5000E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Git ClockUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA9E01CEDDF996987700390F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Git ClockTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		526CCF63228B410D00D66965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526CCF6D228B410D00D66965 /* ViewController.swift in Sources */,
+				526CCF6B228B410D00D66965 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526CCF77228B410F00D66965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526CCF80228B410F00D66965 /* Git_ClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526CCF82228B410F00D66965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526CCF8B228B410F00D66965 /* Git_ClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		526CCF7D228B410F00D66965 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 526CCF66228B410D00D66965 /* Git Clock */;
+			targetProxy = 526CCF7C228B410F00D66965 /* PBXContainerItemProxy */;
+		};
+		526CCF88228B410F00D66965 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 526CCF66228B410D00D66965 /* Git Clock */;
+			targetProxy = 526CCF87228B410F00D66965 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		526CCF6E228B410D00D66965 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526CCF6F228B410D00D66965 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		526CCF73228B410E00D66965 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526CCF74228B410E00D66965 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		526CCF8D228B410F00D66965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		526CCF8E228B410F00D66965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		526CCF90228B410F00D66965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE44567B845F107447C6A6B /* Pods-Git Clock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JQ28K6Y7JE;
+				INFOPLIST_FILE = "Git Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.dartmouth.dali.Git-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		526CCF91228B410F00D66965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDB320C16E43DFC4D4A71A6 /* Pods-Git Clock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JQ28K6Y7JE;
+				INFOPLIST_FILE = "Git Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.dartmouth.dali.Git-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		526CCF93228B410F00D66965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6805096B183B12F1F8663FCF /* Pods-Git ClockTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JQ28K6Y7JE;
+				INFOPLIST_FILE = "Git ClockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.dartmouth.dali.Git-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Git Clock.app/Git Clock";
+			};
+			name = Debug;
+		};
+		526CCF94228B410F00D66965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6DF2954A52E35E40281BC6D /* Pods-Git ClockTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JQ28K6Y7JE;
+				INFOPLIST_FILE = "Git ClockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.dartmouth.dali.Git-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Git Clock.app/Git Clock";
+			};
+			name = Release;
+		};
+		526CCF96228B410F00D66965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7942ABEE1EE2765B2BE2F3B /* Pods-Git ClockUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JQ28K6Y7JE;
+				INFOPLIST_FILE = "Git ClockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.dartmouth.dali.Git-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Git Clock";
+			};
+			name = Debug;
+		};
+		526CCF97228B410F00D66965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE1E36D080C8E4DA7864FB49 /* Pods-Git ClockUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JQ28K6Y7JE;
+				INFOPLIST_FILE = "Git ClockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.dartmouth.dali.Git-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Git Clock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		526CCF62228B410D00D66965 /* Build configuration list for PBXProject "Git Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526CCF8D228B410F00D66965 /* Debug */,
+				526CCF8E228B410F00D66965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526CCF8F228B410F00D66965 /* Build configuration list for PBXNativeTarget "Git Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526CCF90228B410F00D66965 /* Debug */,
+				526CCF91228B410F00D66965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526CCF92228B410F00D66965 /* Build configuration list for PBXNativeTarget "Git ClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526CCF93228B410F00D66965 /* Debug */,
+				526CCF94228B410F00D66965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526CCF95228B410F00D66965 /* Build configuration list for PBXNativeTarget "Git ClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526CCF96228B410F00D66965 /* Debug */,
+				526CCF97228B410F00D66965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 526CCF5F228B410D00D66965 /* Project object */;
+}
